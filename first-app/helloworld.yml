@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: k8s-demo
-    image: wardviaene/k8s-demo
+    image: dtr.cdl.es.ad.adp.com/rm/helloworld
     ports:
-    - name: nodejs-port
+    - name: testing
       containerPort: 3000
